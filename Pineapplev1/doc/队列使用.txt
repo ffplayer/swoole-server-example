@@ -1,0 +1,8 @@
+$queue = new SplQueue;
+$data = 112;
+$queue->push($data);
+//出队
+$data = $queue->shift();
+//查询队列中的排队数量
+$n = count($queue);
+var_dump($n);
